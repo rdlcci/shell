@@ -9,7 +9,7 @@
 
 mkdir $1
 cd $1
-mkdir code data output model embedding test notebook
+mkdir code data output model embedding test notebook presentations 
 echo "## ${1} by ${2}" >> README.md
 
 # delete them all, dont uncomment this 
